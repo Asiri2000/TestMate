@@ -4,6 +4,7 @@ import {Welcome} from './Welcome';
 import {Content} from './Welcome';
 import Button from './Button';
 import {Click} from './Button';
+import {Hello, HelloWithoutJsx} from './Hello';
 
 
 
@@ -40,7 +41,10 @@ function App() {
  <Button />
   <br />
     <Click />
-      
+    <br />
+    <Hello />
+      <br />
+      <HelloWithoutJsx />
 </div>
    
 
