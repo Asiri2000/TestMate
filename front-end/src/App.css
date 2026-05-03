@@ -188,3 +188,15 @@ h1{
     color: red;
     size: 55px;
 }
+
+table{
+  border: 4px solid black;
+}
+
+td{
+   border :2px solid aqua;
+}
+
+th{
+   border :2px solid rgb(21, 255, 0);
+}
