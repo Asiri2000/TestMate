@@ -5,7 +5,8 @@ import {Content} from './Welcome';
 import Button from './Button';
 import {Click} from './Button';
 import {Hello, HelloWithoutJsx} from './Hello';
-import {UserProfile} from './UserProfile';
+import {UserProfile,ContactForm} from './UserProfile';
+import {CandidateProfile} from './CandidateProfile';
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
       <p>This is the frontend of the TestMate application. Here, you can interact with the user interface and access various features of the application.</p>
 
 <br />
-
+     <div>
       <table>
           <tr>
               <th>Feature</th>
@@ -33,6 +34,7 @@ function App() {
           </tr>
 
       </table>
+      </div>
 
       <Welcome />
 
@@ -47,6 +49,12 @@ function App() {
       <HelloWithoutJsx />
       <br />
       <UserProfile />
+
+      <br />
+      <ContactForm />
+
+      <br />
+      <CandidateProfile />
 
 </div>
    
